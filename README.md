@@ -21,12 +21,12 @@ An intelligent resume analysis tool that uses NLP and RAG (Retrieval-Augmented G
 - **Visualization**: Plotly
 - **Document Processing**: PyPDF2, python-docx
 
-## 📦 Installation
+##  Installation
 
 1. **Clone the repository**:
    ```bash
    git clone <repository-url>
-   cd KitLab
+   cd SkillScout
    ```
 
 2. **Install dependencies**:
@@ -39,7 +39,7 @@ An intelligent resume analysis tool that uses NLP and RAG (Retrieval-Augmented G
    streamlit run app.py
    ```
 
-## 🚀 Usage
+## Usage
 
 1. **Upload Resume**: Upload your resume in PDF, DOCX, or TXT format
 2. **Provide Job Description**: Either upload a file or paste the job description text
@@ -51,7 +51,7 @@ An intelligent resume analysis tool that uses NLP and RAG (Retrieval-Augmented G
    - Keyword density optimization
 4. **Follow Suggestions**: Implement AI-generated improvement recommendations
 
-## 📊 Scoring Algorithm
+## Scoring Algorithm
 
 The matching score is calculated using a weighted combination of:
 
@@ -60,7 +60,7 @@ The matching score is calculated using a weighted combination of:
 - **Experience Match (20%)**: Years of experience comparison
 - **Keyword Density (15%)**: Resume-job description keyword overlap
 
-## 🎯 Score Interpretation
+## Score Interpretation
 
 - **90-100%**: Excellent match - Strong candidate
 - **70-89%**: Good match - Qualified candidate
@@ -92,7 +92,7 @@ KitLab/
 └── README.md                    # This file
 ```
 
-## 🔧 Configuration
+## Configuration
 
 The application uses default configurations that work well out of the box:
 
@@ -100,7 +100,7 @@ The application uses default configurations that work well out of the box:
 - **Vector Database**: ChromaDB with DuckDB backend
 - **Similarity Threshold**: Configurable in the matcher module
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/new-feature`)
@@ -108,18 +108,14 @@ The application uses default configurations that work well out of the box:
 4. Push to the branch (`git push origin feature/new-feature`)
 5. Create a Pull Request
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Sentence Transformers for the embedding models
 - ChromaDB for vector database capabilities
 - Streamlit for the amazing web framework
 - The open-source community for the various libraries used
 
-## 📞 Support
+## Support
 
 If you encounter any issues or have questions, please:
 1. Check the existing issues on GitHub
