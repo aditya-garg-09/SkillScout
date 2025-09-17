@@ -1,0 +1,13 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# IDE-specific files
+.vscode/
+
+# Local data files
+.claude/
+data/
+*.pkl
